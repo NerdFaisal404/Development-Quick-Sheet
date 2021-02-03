@@ -13,3 +13,6 @@ flutter build appbundle --release --flavor app1 --target lib/app1/main.dart
 pub run build_runner build
 # flutter
 flutter pub run build_runner build
+
+#ProcessException: ProcessException: Operation not permitted command gradlew -v #41486
+cmd ->    xattr -d com.apple.quarantine android/gradlew
