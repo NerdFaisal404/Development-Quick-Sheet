@@ -7,7 +7,7 @@ flutter build apk --release --flavor app1 --target lib/app1/main.dart
 
 flutter build appbundle --release --flavor app1 --target lib/app1/main.dart
 
-#Generate Keystore 
+# Generate Keystore 
 
 /Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/bin/keytool -genkey -v -keystore ~/release.jks -keyalg RSA -keysize 2048 -validity 10000 -alias tictak-grocery
 
