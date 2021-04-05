@@ -38,3 +38,7 @@ storePassword=
 keyPassword=
 keyAlias=
 storeFile=\\keystore\\release.jks
+
+gitlab issue
+
+https://username@gitlab.com/single-vendor-e-commerce-flutter.git
