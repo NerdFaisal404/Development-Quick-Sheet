@@ -45,3 +45,6 @@ https://username@gitlab.com/single-vendor-e-commerce-flutter.git
 
 # Generate sha1 with cmd 
 gradlew signingReport
+
+#No Null Safety
+flutter build apk --release --no-sound-null-safety
