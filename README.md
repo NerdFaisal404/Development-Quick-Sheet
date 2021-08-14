@@ -48,3 +48,6 @@ gradlew signingReport
 
 #No Null Safety
 flutter build apk --release --no-sound-null-safety
+
+#Cocopods issue for M1
+https://github.com/CocoaPods/CocoaPods/issues/9890
