@@ -49,5 +49,12 @@ gradlew signingReport
 #No Null Safety
 flutter build apk --release --no-sound-null-safety
 
-#Cocopods issue for M1
+#Cocopods issue for M1 
 https://github.com/CocoaPods/CocoaPods/issues/9890
+sudo arch -x86_64 gem install ffi
+
+Then
+
+arch -x86_64 pod install
+
+
