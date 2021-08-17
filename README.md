@@ -57,4 +57,7 @@ Then
 
 arch -x86_64 pod install
 
+#IOS pod installing problem solution 
+https://github.com/invertase/react-native-firebase/issues/321
+
 
