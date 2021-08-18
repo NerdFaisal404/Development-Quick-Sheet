@@ -60,4 +60,8 @@ arch -x86_64 pod install
 #IOS pod installing problem solution 
 https://github.com/invertase/react-native-firebase/issues/321
 
+# How to change the package name ? 
+flutter pub run rename --bundleId com.daqueen.app 
+flutter pub run rename --appname "Daqueen"
+
 
