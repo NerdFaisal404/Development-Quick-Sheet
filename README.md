@@ -64,4 +64,10 @@ https://github.com/invertase/react-native-firebase/issues/321
 flutter pub run rename --bundleId com.daqueen.app 
 flutter pub run rename --appname "Daqueen"
 
+# Problem - Password for 'https://git@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://git@github.com/eurydyce/MDANSE.git/'
+
+cmd : git config credential.helper ""
+
 
