@@ -72,16 +72,16 @@ cmd : git config credential.helper ""
 
 # Column Builder for Flutter. Can be used instead of a ListView with shrinkWrap.
 
-class ColumnBuilder extends StatelessWidget {
-	final IndexedWidgetBuilder itemBuilder;
-	final MainAxisAlignment mainAxisAlignment;
-	final MainAxisSize mainAxisSize;
-	final CrossAxisAlignment crossAxisAlignment;
-	final TextDirection textDirection;
-	final VerticalDirection verticalDirection;
-	final int itemCount;
+    	 class ColumnBuilder extends StatelessWidget {
+		final IndexedWidgetBuilder itemBuilder;
+		final MainAxisAlignment mainAxisAlignment;
+		final MainAxisSize mainAxisSize;
+		final CrossAxisAlignment crossAxisAlignment;
+		final TextDirection textDirection;
+		final VerticalDirection verticalDirection;
+		final int itemCount;
 
-	const ColumnBuilder({
+		const ColumnBuilder({
 		Key key,
 		@required this.itemBuilder,
 		@required this.itemCount,
@@ -97,8 +97,8 @@ class ColumnBuilder extends StatelessWidget {
 		return new Column(
 			children: new List.generate(this.itemCount,
 					(index) => this.itemBuilder(context, index)).toList(),
-		);
+			);
+		}
 	}
-}
 
 
