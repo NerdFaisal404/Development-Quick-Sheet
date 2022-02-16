@@ -101,4 +101,8 @@ cmd : git config credential.helper ""
 		}
 	}
 
+### Analytics debug view
+
+adb shell setprop debug.firebase.analytics.app com.example.app_name
+
 
